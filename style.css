@@ -46,3 +46,21 @@ ul {
 	width: 80%;
 	flex-direction: column;
 }
+
+body {
+	text-align: center;
+}
+
+.info {
+	max-width: 200px;
+}
+
+.content {
+	display: flex;
+	justify-content: center;
+	gap: 52px;
+}
+
+.title {
+	margin-bottom: 32px;
+}
