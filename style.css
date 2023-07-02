@@ -34,3 +34,14 @@ ul {
 	justify-content: space-between;
 	padding: 8px;
 }
+
+.subhead {
+	display: flex;
+	justify-content: space-between;
+	padding: 8px;
+}
+
+.left-sub {
+	display: flex;
+	width: 80%;
+}
