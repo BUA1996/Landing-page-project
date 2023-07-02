@@ -9,3 +9,28 @@
 	width: 80px;
 	height: 80px;
 }
+
+a {
+	text-decoration: none;
+	color: rebeccapurple;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	gap: 16px;
+}
+
+.right {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding: 8px;
+}
