@@ -109,7 +109,7 @@ body {
 
 .quote {
 	background-color: #E5E7EB;
-	margin-top: 50px;
+	margin-top: 80px;
 }
 
 .quote-text {
@@ -127,11 +127,12 @@ body {
 	margin-left: 100px;
 	margin-right: 100px;
 	border-radius: 10px;
+	flex-direction: column;
+	height: 100px;
 }
 
 .action-text {
 	color: white;
 	display: flex;
-	flex-direction: column;
 
 }
