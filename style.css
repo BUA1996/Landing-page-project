@@ -60,12 +60,14 @@ ul {
 	font-size: 48px;
 	font-weight: #F9FAF8;
 	color: white;
+	align-self: center;
 }
 
 .sechero {
 	font-size: 18px;
 	font-weight: #E5E7EB;
 	color: white;
+	align-self: center;
 }
 
 .left-sub {
@@ -109,3 +111,5 @@ body {
 .action {
 	background-color: #3882F6;
 }
+
+
