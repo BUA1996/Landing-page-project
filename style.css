@@ -4,6 +4,7 @@
 	width: 300px;
 	height: 300px;
 	display: flex;
+	justify-content: space-between;
 	gap: 16px;
 }
 
@@ -113,6 +114,9 @@ body {
 .quote {
 	background-color: #E5E7EB;
 	margin-top: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .quote-text {
