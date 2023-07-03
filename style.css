@@ -10,6 +10,14 @@
 	height: 80px;
 }
 
+button {
+	cursor: pointer;
+	padding: 8px 16px;
+	border-radius: 8px;
+	color: white;
+	background: #3882F6;
+}
+
 a {
 	text-decoration: none;
 	color: white;
@@ -87,4 +95,17 @@ body {
 
 .footer {
 	background-color: #1F2937;
+}
+
+.quote {
+	background-color: #E5E7EB;
+}
+
+.quote-text {
+	font-size: 36px;
+	font-family: #1F2937;
+}
+
+.action {
+	background-color: #3882F6;
 }
