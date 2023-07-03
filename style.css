@@ -46,7 +46,7 @@ ul {
 }
 
 .subhead {
-	margin-top: 16px;
+	margin-top: 32px;
 	display: flex;
 	justify-content: space-between;
 	padding: 8px;
@@ -84,8 +84,11 @@ body {
 	max-width: 200px;
 }
 
+.second-head {
+	margin-top: 18px;
+}
+
 .content {
-	margin-top: 16px;
 	display: flex;
 	justify-content: center;
 	gap: 52px;
