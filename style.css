@@ -143,6 +143,10 @@ body {
 	height: 100px;
 }
 
+.action-button {
+	display: flex;
+	align-self: flex-end;
+}
 .action-text {
 	color: white;
 	display: flex;
