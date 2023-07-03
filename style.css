@@ -112,9 +112,12 @@ body {
 .quote-text {
 	font-size: 36px;
 	font-family: #1F2937;
+	display: flex;
+	align-items: center;
 }
 
 .action {
+	display: flex;
 	background-color: #3882F6;
 	margin-top: 50px;
 	margin-bottom: 50px;
@@ -123,4 +126,6 @@ body {
 	border-radius: 10px;
 }
 
-
+.action-text {
+	color: white;
+}
