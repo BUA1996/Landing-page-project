@@ -36,6 +36,7 @@ ul {
 }
 
 .subhead {
+	margin-top: 16px;
 	display: flex;
 	justify-content: space-between;
 	padding: 8px;
@@ -43,7 +44,7 @@ ul {
 
 .left-sub {
 	display: flex;
-	width: 80%;
+	/*width: 80%;*/
 	flex-direction: column;
 }
 
@@ -56,6 +57,7 @@ body {
 }
 
 .content {
+	margin-top: 16px;
 	display: flex;
 	justify-content: center;
 	gap: 52px;
