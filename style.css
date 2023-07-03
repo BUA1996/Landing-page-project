@@ -106,7 +106,7 @@ body {
 
 .quote {
 	background-color: #E5E7EB;
-	margin-top: 32px;
+	margin-top: 50px;
 }
 
 .quote-text {
@@ -116,7 +116,11 @@ body {
 
 .action {
 	background-color: #3882F6;
-	margin-top: 32;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+	border-radius: 10px;
 }
 
 
