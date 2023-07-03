@@ -3,6 +3,8 @@
 .resize {
 	width: 300px;
 	height: 300px;
+	display: flex;
+	gap: 16px;
 }
 
 .logo {
@@ -102,6 +104,7 @@ body {
 
 .footer {
 	background-color: #1F2937;
+	height: 100px;
 }
 
 .quote {
@@ -128,4 +131,7 @@ body {
 
 .action-text {
 	color: white;
+	display: flex;
+	flex-direction: column;
+
 }
