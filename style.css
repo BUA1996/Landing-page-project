@@ -1,5 +1,10 @@
 /* Contains the styling of the landing page contents*/
 
+body, html {
+	height: 100%;
+	display: flex;
+}
+
 .resize {
 	width: 300px;
 	height: 300px;
@@ -123,7 +128,7 @@ body {
 	font-size: 36px;
 	font-family: #1F2937;
 	display: flex;
-	align-items: center;
+	align-self: center;
 }
 
 .action {
