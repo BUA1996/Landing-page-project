@@ -1,16 +1,23 @@
 /* Contains the styling ofthe landing page contents*/
 
 .resize {
-	width: 300px;
-	height: 300px;
+	width: 200px;
+	height: 200px;
 	display: flex;
 	justify-content: space-between;
 	gap: 16px;
+	object-fit: cover;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: #031a41;
 }
 
 .logo {
 	width: 80px;
 	height: 80px;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: #031a41;
 }
 
 button {
@@ -19,6 +26,7 @@ button {
 	border-radius: 8px;
 	color: white;
 	background: #3882F6;
+	border-color: #3882F6;
 }
 
 a {
@@ -43,12 +51,16 @@ ul {
 }
 
 .header {
+	margin-right: 150px;
+	margin-left: 150px;
 	display: flex;
 	justify-content: space-between;
 	padding: 8px;
 }
 
 .subhead {
+	margin-right: 150px;
+	margin-left: 150px;
 	margin-top: 32px;
 	display: flex;
 	justify-content: space-between;
@@ -63,7 +75,7 @@ ul {
 	font-size: 48px;
 	font-weight: #F9FAF8;
 	color: white;
-	align-self: center;
+	align-self: flex-start;
 }
 
 .sechero {
@@ -77,6 +89,7 @@ ul {
 	display: flex;
 	/*width: 80%;*/
 	flex-direction: column;
+	justify-content: flex-start;
 }
 
 .info {
@@ -85,18 +98,25 @@ ul {
 
 .second-head {
 	margin-top: 28px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 
 .content {
 	display: flex;
-	justify-content: center;
-	gap: 52px;
+	justify-content: space-between;
+	margin-left: 120px;
+	margin-right: 120px;
 }
 
 .title {
 	margin-bottom: 32px;
 	font-size: 36px;
 	font-weight: #1F2937;
+	align-self: center;
 }
 
 .footer {
@@ -113,6 +133,8 @@ ul {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding: 150px 200px;
+	flex-direction: column;
 }
 
 .quote-text {
@@ -131,15 +153,41 @@ ul {
 	margin-right: 100px;
 	border-radius: 10px;
 	flex-direction: column;
-	height: 100px;
+	height: 80px;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 30px;
 }
 
 .action-button {
 	display: flex;
 	align-self: flex-end;
+	border-color: #F9FAF8;
+	/*margin-bottom: 50px;*/
 }
 .action-text {
 	color: white;
 	display: flex;
+}
 
+.signup {
+	width: 120px;
+}
+
+.author {
+	align-self: bottom;
+	margin-left: 500px;
+}
+
+.waiter {
+	width: 350px;
+	height: 200px;
+	display: flex;
+	justify-content: space-between;
+	gap: 16px;
+	object-fit: cover;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: #031431;
+	margin-bottom: 55px;
 }
