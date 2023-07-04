@@ -1,5 +1,6 @@
 /* Contains the styling ofthe landing page contents*/
 
+/*The images styles applied- this is for the content images*/
 .resize {
 	width: 200px;
 	height: 200px;
@@ -12,6 +13,7 @@
 	border-color: #031a41;
 }
 
+/*The logo image - styles*/
 .logo {
 	width: 80px;
 	height: 80px;
@@ -20,6 +22,7 @@
 	border-color: #031a41;
 }
 
+/*The button styles applied to all buttons*/
 button {
 	cursor: pointer;
 	padding: 8px 16px;
@@ -44,6 +47,7 @@ ul {
 	gap: 16px;
 }
 
+/*Style for the content to appear on the right*/
 .right {
 	display: flex;
 	align-items: center;
@@ -119,6 +123,7 @@ ul {
 	align-self: center;
 }
 
+/* The footer styling*/
 .footer {
 	background-color: #1F2937;
 	height: 100px;
@@ -127,6 +132,7 @@ ul {
 	align-items: center;
 }
 
+/* the quote section styling*/
 .quote {
 	background-color: #E5E7EB;
 	margin-top: 80px;
@@ -144,6 +150,7 @@ ul {
 	align-self: center;
 }
 
+/* call to action */
 .action {
 	display: flex;
 	background-color: #3882F6;
@@ -179,6 +186,7 @@ ul {
 	margin-left: 500px;
 }
 
+/* the body image styles*/
 .waiter {
 	width: 350px;
 	height: 200px;
